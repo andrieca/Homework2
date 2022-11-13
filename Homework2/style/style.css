@@ -1,0 +1,29 @@
+table, th, td {
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+}
+.name{
+    width: 100px;
+}
+.name2{
+    width: 300px;
+}
+td{
+    text-align: center;
+    
+}
+.st1 td:nth-child(3n+1){
+   background-color: rgb(185, 185, 226);
+}
+.st1 td:nth-child(3n+2){
+    background-color:rgb(209, 241, 231) ;
+}
+.st2 td:nth-child(3n+1){
+    background-color: rgb(209, 241, 231);
+}
+.st2 td:nth-child(3n+2){
+    background-color: rgb(185, 185, 226);
+}
